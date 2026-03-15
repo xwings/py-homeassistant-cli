@@ -5,7 +5,7 @@ description: >
   including lights, climate, locks, presence, weather, calendars, notifications,
   scripts, and more. Use when the user asks about their smart home, devices, or automations.
 license: MIT
-homepage: https://github.com/xwings/homeassistant-cli
+homepage: https://github.com/xwings/py-homeassistant-cli
 compatibility: Requires Python 3.6+. Network access to Home Assistant instance.
 metadata: {"author": "xwings", "version": "3.0.0", "openclaw": {"requires": {"env": [""], "bins": ["python3 {baseDir}/scripts/homeassistant-cli.py"]}, "primaryEnv": ""}}
 ---
