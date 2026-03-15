@@ -1,9 +1,8 @@
 ---
 name: homeassistant-cli
 description: >
-  Control Home Assistant devices and automations via REST API. 25 entity domains
-  including lights, climate, locks, presence, weather, calendars, notifications,
-  scripts, and more. Use when the user asks about their smart home, devices, or automations.
+  A Python CLI tool to control Home Assistant devices and automations via the REST API. 
+  No external dependencies — uses only Python 3.6+ standard library.
 license: MIT
 homepage: https://github.com/xwings/py-homeassistant-cli
 compatibility: Requires Python 3.6+. Network access to Home Assistant instance.
