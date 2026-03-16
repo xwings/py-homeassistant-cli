@@ -1,4 +1,4 @@
-# homeassistant-cli
+# py-homeassistant-cli
 
 A Python CLI tool to control Home Assistant devices and automations via the REST API. No external dependencies — uses only Python 3.6+ standard library.
 
