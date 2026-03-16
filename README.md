@@ -9,7 +9,7 @@ A Python CLI tool to control Home Assistant devices and automations via the REST
 2. Configure via environment variables or command-line arguments:
 
 ```bash
-# Environment variables
+# Optional: Environment variables
 export HA_URL="http://10.0.0.10:8123"
 export HA_TOKEN="your_long_lived_access_token"
 
