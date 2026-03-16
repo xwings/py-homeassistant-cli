@@ -6,7 +6,7 @@ description: >
 license: MIT
 homepage: https://github.com/xwings/py-homeassistant-cli
 compatibility: Requires Python 3.6+. Network access to Home Assistant instance.
-metadata: {"author": "xwings", "openclaw": { env: ["HA_URL", "HASS_TOKEN"],"bins": ["python3 {baseDir}/scripts/homeassistant-cli.py"]}}
+metadata: {"author": "xwings", "openclaw": { env: ["HA_URL", "HA_TOKEN"],"bins": ["python3 {baseDir}/scripts/homeassistant-cli.py"]}}
 ---
 
 # Home Assistant Skill
