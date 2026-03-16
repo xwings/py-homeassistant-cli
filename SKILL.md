@@ -18,6 +18,10 @@ Control smart home devices via the Home Assistant REST API using the Python CLI 
 Configure via environment variables or command-line arguments (args take priority):
 
 ```bash
+# Optional: Environment variables
+export HA_URL="http://10.0.0.10:8123"
+export HA_TOKEN="your_long_lived_access_token"
+
 # pass via args (overrides env vars)
 python3 {baseDir}/scripts/homeassistant-cli.py --server http://10.0.0.10:8123 --token YOUR_TOKEN check
 ```
