@@ -1,12 +1,12 @@
 ---
-name: homeassistant-cli
+name: py-homeassistant-cli
 description: >
-  A Python CLI tool to control Home Assistant devices and automations via the REST API. 
+  Tiny and short Python CLI tool to control Home Assistant devices and automations via the REST API. 
   No external dependencies — uses only Python 3.6+ standard library.
 license: MIT
 homepage: https://github.com/xwings/py-homeassistant-cli
 compatibility: Requires Python 3.6+. Network access to Home Assistant instance.
-metadata: {"author": "xwings", "version": "3.0.0", "openclaw": {"bins": ["python3 {baseDir}/scripts/homeassistant-cli.py"]}}}
+metadata: {"author": "xwings", "openclaw": {"bins": ["python3 {baseDir}/scripts/homeassistant-cli.py"]}}
 ---
 
 # Home Assistant Skill
